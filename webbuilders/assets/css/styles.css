@@ -307,6 +307,13 @@
   margin-bottom: 100px;
   
 }
+@media screen and (max-width: 480px) {
+  .parallax {
+    margin-top: 0;
+  margin-bottom: 0;
+  }
+  
+}
 
 body {
   overflow-x: hidden;
@@ -668,7 +675,7 @@ details p {
   text-align: center;
   justify-items: center;
   transition: 0.3s;
-  width: 100%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
