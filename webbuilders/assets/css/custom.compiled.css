@@ -17,7 +17,7 @@ body {
 .glitch, .glow {
   color: #dfbfbf;
   position: relative;
-  font-size: 9vw;
+  font-size: 11vw;
   animation: glitch 5s 5s infinite;
 
   
@@ -50,6 +50,228 @@ body {
   overflow: hidden;
   top: 0;
   animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+}
+/* ✅ Responsive Adjustments */
+@media (max-width: 768px) {
+  .glitch, .glow {
+    color: #dfbfbf;
+    position: relative;
+    font-size: 11vw;
+    animation: glitch 5s 5s infinite;
+  
+    
+    
+  }
+  
+  .glitch::before, .glow::before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: -5px 0 magenta;
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    
+    animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+  }
+  
+  
+  .glitch::after, .glow::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -5px 0 lightgreen;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+  }
+}
+
+@media (max-width: 480px) {
+  .glitch, .glow {
+    color: #dfbfbf;
+    position: relative;
+    font-size: 15vw;
+    animation: glitch 5s 5s infinite;
+  
+    
+    
+  }
+  
+  .glitch::before, .glow::before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: -5px 0 magenta;
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    
+    animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+  }
+  
+  
+  .glitch::after, .glow::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -5px 0 lightgreen;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+  }
+}
+
+
+
+/* top contenders */
+.glitch1, .glow1 {
+  color: #dfbfbf;
+  position: relative;
+  font-size: 9vw;
+  animation: glitch 5s 5s infinite;
+
+  
+  
+}
+
+.glitch1::before, .glow1::before {
+  content: attr(data-text);
+  position: absolute;
+  left: -2px;
+  text-shadow: -5px 0 magenta;
+  background-color:black;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  top: 0;
+  
+  animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+}
+
+
+.glitch1::after, .glow1::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 2px;
+  text-shadow: -5px 0 lightgreen;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+  top: 0;
+  animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+}
+
+.glow1 {
+  text-shadow: 0 0 1000px #dfbfbf;
+  color: transparent;
+  position: absolute;
+  top: 0;
+}
+/* ✅ Responsive Adjustments */
+@media (max-width: 768px) {
+  .glitch1, .glow1 {
+    color: #dfbfbf;
+    position: relative;
+    font-size: 9vw;
+    animation: glitch 5s 5s infinite;
+  
+    
+    
+  }
+  
+  .glitch1::before, .glow1::before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: -5px 0 magenta;
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    
+    animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+  }
+  
+  
+  .glitch1::after, .glow1::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -5px 0 lightgreen;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+  }
+  
+  .glow1 {
+    text-shadow: 0 0 1000px #dfbfbf;
+    color: transparent;
+    position: absolute;
+    top: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .glitch1, .glow1 {
+    color: #dfbfbf;
+    position: relative;
+    font-size: 13vw;
+    animation: glitch 5s 5s infinite;
+  
+    
+    
+  }
+  
+  .glitch1::before, .glow1::before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: -5px 0 magenta;
+    background-color:black;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    
+    animation: noise-1 3s linear infinite alternate-reverse, glitch 5s 5.05s infinite;
+  }
+  
+  
+  .glitch1::after, .glow1::after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -5px 0 lightgreen;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    top: 0;
+    animation: noise-2 3s linear infinite alternate-reverse, glitch 5s 5s infinite;
+  }
+  
+  .glow1 {
+    text-shadow: 0 0 1000px #dfbfbf;
+    color: transparent;
+    position: absolute;
+    top: 0;
+  }
 }
 
 @keyframes glitch {
