@@ -199,7 +199,17 @@
       const heading = document.createElement("h2");
       heading.textContent = "PLEASE OPEN THIS IN A PC/COMPUTER";
       document.body.appendChild(heading);
-    }</script>
+    }
+
+
+        if (window.innerWidth < 768) {
+            document.body.innerHTML = "";
+    document.body.innerHTML = document.getElementById("message").outerHTML;
+    document.getElementById("message").style.display = "block";
+  }
+    
+    
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
