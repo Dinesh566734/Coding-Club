@@ -29,23 +29,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+15&display=swap" rel="stylesheet">
-<p id="message" style="display: none;">Please use this on a desktop.</p>
+
      <style>
   
 
     h2 {
+      text-align: center;
       font-size: 24px;
       color: #ff4c4c;
-      background-color: #222;
+      background-color: #000000;
       padding: 20px;
       border-radius: 10px;
-      box-shadow: 0 0 20px rgba(255, 76, 76, 0.5);
+      /* box-shadow: 0 0 20px rgba(255, 76, 76, 0.5); */
     }
   </style>
 </head>
 
 <body>
-  <p id="message" style="display: none;">Please use this on a desktop.</p>
+  <p id="message" style="display: none;text-align: center;">Please use this on a desktop.</p>
   <div class="cursor"></div>
     <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button bg-transparent" style="height:80px;color:#ffffff; cursor: none; ">
         <div class="container-fluid"><a class="navbar-brand" href="https://dinesh566734.github.io/Coding-Club/">
@@ -194,7 +195,27 @@
         </div>
     </footer>
     <script>
+       if (window.localStorage) {
+  const reloadCount = parseInt(localStorage.getItem('reloadCount')) || 0;
 
+  if (reloadCount < 1) {
+    // First load: set count and reload immediately
+    localStorage.setItem('reloadCount', '1');
+    location.reload();
+  } else if (reloadCount === 1) {
+    // Second load: wait 50 seconds, then reload
+    setTimeout(() => {
+      localStorage.setItem('reloadCount', '2'); // Mark as fully reloaded
+      location.reload();
+    }, 1000);
+  } else {
+    // After second reload: clean up
+    localStorage.removeItem('reloadCount');
+  }
+}
+
+
+      
 
       if (window.innerWidth < 768){
     
