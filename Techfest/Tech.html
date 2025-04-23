@@ -202,11 +202,18 @@
     }
 
 
-        if (window.innerWidth < 768) {
-            document.body.innerHTML = "";
-    document.body.innerHTML = document.getElementById("message").outerHTML;
+      if (window.innerWidth < 768){
+    
     document.getElementById("message").style.display = "block";
-  }
+    document.body.innerHTML = ""
+    function createHeading(text, headingLevel = "h1") {
+  const heading = document.createElement(headingLevel); // Create heading element
+  heading.textContent = text; // Set text content
+  document.body.appendChild(heading); // Add to the document body
+}
+createHeading("PLEASE OPEN THIS IN A PC/COMPUTER", "h2"); // Creates an "h2" heading with text "Welcome to our website" 
+
+}
     
     
     </script>
