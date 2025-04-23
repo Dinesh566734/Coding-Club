@@ -181,18 +181,13 @@
             </div>
         </div>
     </footer>
-    <script> if (window.innerWidth < 500){
-    
-    document.getElementById("message").style.display = "block";
-    document.body.innerHTML = ""
-    function createHeading(text, headingLevel = "h1") {
-  const heading = document.createElement(headingLevel); // Create heading element
-  heading.textContent = text; // Set text content
-  document.body.appendChild(heading); // Add to the document body
-}
-createHeading("PLEASE OPEN THIS IN A PC/COMPUTER", "h2"); // Creates an "h2" heading with text "Welcome to our website" 
+    <script>if (window.innerWidth < 500) {
+      document.body.innerHTML = ""; // Clear page
 
-}</script>
+      const heading = document.createElement("h2");
+      heading.textContent = "PLEASE OPEN THIS IN A PC/COMPUTER";
+      document.body.appendChild(heading);
+    }</script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
@@ -234,18 +229,13 @@ createHeading("PLEASE OPEN THIS IN A PC/COMPUTER", "h2"); // Creates an "h2" hea
 </style>
 <script>
 
-if (window.innerWidth < 500){
-    
-    document.getElementById("message").style.display = "block";
-    document.body.innerHTML = ""
-    function createHeading(text, headingLevel = "h1") {
-  const heading = document.createElement(headingLevel); // Create heading element
-  heading.textContent = text; // Set text content
-  document.body.appendChild(heading); // Add to the document body
-}
-createHeading("PLEASE OPEN THIS IN A PC/COMPUTER", "h2"); // Creates an "h2" heading with text "Welcome to our website" 
+if (window.innerWidth < 500) {
+      document.body.innerHTML = ""; // Clear page
 
-}
+      const heading = document.createElement("h2");
+      heading.textContent = "PLEASE OPEN THIS IN A PC/COMPUTER";
+      document.body.appendChild(heading);
+    }
 //  (function () {
 //     const gridItems = document.querySelectorAll('p, .nav-item, .grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6,.grid-item7,.grid-item8,.team-member');
 //     const cursor = document.querySelector('.cursor');
