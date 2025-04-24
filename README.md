@@ -1,17 +1,23 @@
-**Coding Club** </br>
-Welcome to the Coding Club repository! This project serves as a centralized platform for managing and showcasing various coding-related events, contests, and student projects. It's designed to facilitate collaboration, learning, and innovation within our coding community.</br>
+# **Coding Club**
 
-**🌟 Features** </br>
-Event Management: Organize and display information about coding events and tech fests.</br>
+Welcome to the **Coding Club** repository! This project serves as a centralized platform for managing and showcasing various coding-related events, contests, and student projects. It's designed to facilitate collaboration, learning, and innovation within our coding community.
 
-Contest Hosting: Set up and manage coding contests with ease.</br>
+---
 
-Student Projects: Showcase projects developed by students, promoting peer learning.</br>
+## 🌟 Features
 
-Web Builders: Tools and templates to assist in web development initiatives.</br>
+- **Event Management**: Organize and display information about coding events and tech fests.
+- **Contest Hosting**: Set up and manage coding contests with ease.
+- **Student Projects**: Showcase projects developed by students, promoting peer learning.
+- **Web Builders**: Tools and templates to assist in web development initiatives.
 
-**📁 Project Structure** </br>
+---
+
+## 📁 Project Structure
+
 The repository is organized as follows:
+
+```
 ├── .vscode/             # Visual Studio Code configuration files
 ├── Techfest/            # Resources and pages related to tech festivals
 ├── assets/              # Images, stylesheets, and other static assets
@@ -23,50 +29,68 @@ The repository is organized as follows:
 ├── inn.html             # Inner pages or templates
 ├── project1.html        # Detailed view of Project 1
 └── test.html            # Test page for development purposes
+```
 
-**🚀 Getting Started**</br>
-To set up the project locally:</br>
+---
 
-Clone the repository:</br>
-git clone https://github.com/Dinesh566734/Coding-Club.git</br>
+## 🚀 Getting Started
 
-Navigate to the project directory:</br>
-cd Coding-Club</br>
+To set up the project locally:
 
-Open index.html in your preferred web browser to explore the homepage.</br>
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Dinesh566734/Coding-Club.git
+   ```
 
-**🛠️ Technologies Used**</br>
-HTML5: Markup language for structuring the web pages.</br>
+2. **Navigate to the project directory:**
+   ```bash
+   cd Coding-Club
+   ```
 
-CSS3: Styling and layout of the web pages.</br>
+3. **Open `index.html` in your preferred web browser to explore the homepage.**
 
-JavaScript: Interactive elements and dynamic content.</br>
+---
 
-**📌 Contribution Guidelines**</br>
-We welcome contributions from the community! To contribute:</br>
+## 🛠️ Technologies Used
 
-Fork the repository.</br>
+- **HTML5**: Markup language for structuring the web pages.
+- **CSS3**: Styling and layout of the web pages.
+- **JavaScript**: Interactive elements and dynamic content.
 
-Create a new branch:</br>
-git checkout -b feature/YourFeatureName</br>
+---
 
-Commit your changes:</br>
-git commit -m "Add your message here"</br>
+## 📌 Contribution Guidelines
 
-Push to the branch:</br>
-git push origin feature/YourFeatureName</br>
+We welcome contributions from the community! To contribute:
 
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+5. Open a **Pull Request** and describe your changes.
 
-Open a Pull Request and describe your changes.</br>
+> Please ensure your code adheres to the project's coding standards and is well-documented.
 
-Please ensure your code adheres to the project's coding standards and is well-documented.</br>
+---
 
-**📄 License**</br>
-This project is open-source and available under the MIT License.</br>
+## 📄 License
 
-**📬 Contact**</br>
-For any queries or suggestions, feel free to reach out:</br>
+This project is open-source and available under the [MIT License](LICENSE).
 
-Email: marananidinesh@example.com</br>
+---
 
-GitHub: Dinesh566734</br>
+## 📬 Contact
+
+For any queries or suggestions, feel free to reach out:
+
+- **Email**: marananidinesh@example.com  
+- **GitHub**: [Dinesh566734](https://github.com/Dinesh566734)
