@@ -1,4 +1,4 @@
-**Coding Club**__
+**Coding Club** </br>
 Welcome to the Coding Club repository! This project serves as a centralized platform for managing and showcasing various coding-related events, contests, and student projects. It's designed to facilitate collaboration, learning, and innovation within our coding community.
 
 **🌟 Features**
