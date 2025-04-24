@@ -5,6 +5,68 @@
   padding: 0;
   margin: 0;
 }
+
+.evaluation_metrics {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  color: #fff;
+}
+
+.evaluation_metrics p {
+  font-size: 23px;
+  line-height: 1.6;
+}
+
+.evaluation_metrics h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+/* Medium Devices - Tablets */
+@media (max-width: 992px) {
+  .evaluation_metrics h1 {
+    font-size: 32px;
+  }
+
+  .evaluation_metrics p {
+    font-size: 20px;
+  }
+}
+
+/* Small Devices - Phones */
+@media (max-width: 768px) {
+  .evaluation_metrics h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .evaluation_metrics p {
+    font-size: 18px;
+  }
+
+  .evaluation_metrics {
+    padding: 10px;
+  }
+}
+
+/* Extra Small Devices */
+@media (max-width: 480px) {
+  .evaluation_metrics h1 {
+    font-size: 22px;
+  }
+
+  .evaluation_metrics p {
+    font-size: 16px;
+  }
+
+  hr {
+    margin: 20px auto;
+  }
+}
+
 .imagess {
   margin-left: auto;
   margin-right: auto;
