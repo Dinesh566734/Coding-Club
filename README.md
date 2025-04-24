@@ -1,16 +1,16 @@
 **Coding Club** </br>
-Welcome to the Coding Club repository! This project serves as a centralized platform for managing and showcasing various coding-related events, contests, and student projects. It's designed to facilitate collaboration, learning, and innovation within our coding community.
+Welcome to the Coding Club repository! This project serves as a centralized platform for managing and showcasing various coding-related events, contests, and student projects. It's designed to facilitate collaboration, learning, and innovation within our coding community.</br>
 
-**🌟 Features**
-Event Management: Organize and display information about coding events and tech fests.
+**🌟 Features** </br>
+Event Management: Organize and display information about coding events and tech fests.</br>
 
-Contest Hosting: Set up and manage coding contests with ease.
+Contest Hosting: Set up and manage coding contests with ease.</br>
 
-Student Projects: Showcase projects developed by students, promoting peer learning.
+Student Projects: Showcase projects developed by students, promoting peer learning.</br>
 
-Web Builders: Tools and templates to assist in web development initiatives.
+Web Builders: Tools and templates to assist in web development initiatives.</br>
 
-**📁 Project Structure**
+**📁 Project Structure** </br>
 The repository is organized as follows:
 ├── .vscode/             # Visual Studio Code configuration files
 ├── Techfest/            # Resources and pages related to tech festivals
@@ -24,49 +24,49 @@ The repository is organized as follows:
 ├── project1.html        # Detailed view of Project 1
 └── test.html            # Test page for development purposes
 
-**🚀 Getting Started**
-To set up the project locally:
+**🚀 Getting Started**</br>
+To set up the project locally:</br>
 
-Clone the repository:
-git clone https://github.com/Dinesh566734/Coding-Club.git
+Clone the repository:</br>
+git clone https://github.com/Dinesh566734/Coding-Club.git</br>
 
-Navigate to the project directory:
-cd Coding-Club
+Navigate to the project directory:</br>
+cd Coding-Club</br>
 
-Open index.html in your preferred web browser to explore the homepage.
+Open index.html in your preferred web browser to explore the homepage.</br>
 
-**🛠️ Technologies Used**
-HTML5: Markup language for structuring the web pages.
+**🛠️ Technologies Used**</br>
+HTML5: Markup language for structuring the web pages.</br>
 
-CSS3: Styling and layout of the web pages.
+CSS3: Styling and layout of the web pages.</br>
 
-JavaScript: Interactive elements and dynamic content.
+JavaScript: Interactive elements and dynamic content.</br>
 
-**📌 Contribution Guidelines**
-We welcome contributions from the community! To contribute:
+**📌 Contribution Guidelines**</br>
+We welcome contributions from the community! To contribute:</br>
 
-Fork the repository.
+Fork the repository.</br>
 
-Create a new branch:
-git checkout -b feature/YourFeatureName
+Create a new branch:</br>
+git checkout -b feature/YourFeatureName</br>
 
-Commit your changes:
-git commit -m "Add your message here"
+Commit your changes:</br>
+git commit -m "Add your message here"</br>
 
-Push to the branch:
-git push origin feature/YourFeatureName
+Push to the branch:</br>
+git push origin feature/YourFeatureName</br>
 
 
-Open a Pull Request and describe your changes.
+Open a Pull Request and describe your changes.</br>
 
-Please ensure your code adheres to the project's coding standards and is well-documented.
+Please ensure your code adheres to the project's coding standards and is well-documented.</br>
 
-**📄 License**
-This project is open-source and available under the MIT License.
+**📄 License**</br>
+This project is open-source and available under the MIT License.</br>
 
-**📬 Contact**
-For any queries or suggestions, feel free to reach out:
+**📬 Contact**</br>
+For any queries or suggestions, feel free to reach out:</br>
 
-Email: marananidinesh@example.com
+Email: marananidinesh@example.com</br>
 
-GitHub: Dinesh566734
+GitHub: Dinesh566734</br>
