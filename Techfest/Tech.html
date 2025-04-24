@@ -78,7 +78,7 @@
   <h1 onclick="window.open('https://www.instagram.com/techfest2025_crraoaimscs?igsh=MThwc3lnZjcyYmQzbQ==')" style="width: 100%; text-align: center;">FOLLOW_US_ON_INSTAGRAM!!</h1>
   <p class="subtitle">"Innovate, Integrate, Inspire—Shaping the Future with Technology!" 🚀💡</p>
   
-</div>
+</div>    <div class="evaluation_metrics">
            <!-- <div class="sectionmain__data"><h2 class="sectionmain1__title">WELCOME TO <BR>#100 DAYS OF CODE</h2></div> -->
            <br><br><p style="font-size: 23px;">The TechFest event you’re conducting will bring together tech professionals, innovators, and enthusiasts to explore the latest trends, tools, and innovations in the tech world. Attendees can look forward to keynote sessions, hands-on workshops, networking opportunities, and an exhibition showcasing cutting-edge products and solutions. It’s the perfect platform for learning, collaboration, and discovering the future of technology.
             <br>
@@ -119,8 +119,10 @@
               &#9726;	Team dynamics: Evidence of balanced contributions and collaborative problem-solving (7%)  <br>
             </p>
             <br><br>
-           <hr size="2" width="100%" style="height: 2px;margin-left: auto;margin-right: auto;border-top: 2px dotted rgb(255, 255, 255);">
-       </div>
+           
+            <hr size="2" width="100%" style="height: 2px;margin-left: auto;margin-right: auto;border-top: 2px dotted rgb(255, 255, 255);">
+          </div>
+          </div>
        <h1 style="width: 100%;font-size:40px; text-align: CENTER;padding-bottom: 10px;padding-top: 20px;text-transform: uppercase;">techfest_2K25</h1>
 
        <!-- <div class="sectionmain__data"><h2 class="sectionmain__title" style="color: #ffffff;">GALLERY</h2></div> -->
@@ -200,44 +202,7 @@
             </div>
         </div>
     </footer>
-    <script>
-       if (window.localStorage) {
-  const reloadCount = parseInt(localStorage.getItem('reloadCount')) || 0;
-
-  if (reloadCount < 1) {
-    // First load: set count and reload immediately
-    localStorage.setItem('reloadCount', '1');
-    location.reload();
-  } else if (reloadCount === 1) {
-    // Second load: wait 50 seconds, then reload
-    setTimeout(() => {
-      localStorage.setItem('reloadCount', '2'); // Mark as fully reloaded
-      location.reload();
-    }, 1000);
-  } else {
-    // After second reload: clean up
-    localStorage.removeItem('reloadCount');
-  }
-}
-
-
-      
-
-      if (window.innerWidth < 768){
     
-    document.getElementById("message").style.display = "block";
-    document.body.innerHTML = ""
-    function createHeading(text, headingLevel = "h1") {
-  const heading = document.createElement(headingLevel); // Create heading element
-  heading.textContent = text; // Set text content
-  document.body.appendChild(heading); // Add to the document body
-}
-createHeading("PLEASE OPEN THIS IN A PC/COMPUTER", "h2"); // Creates an "h2" heading with text "Welcome to our website" 
-
-}
-    
-    
-    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
@@ -278,14 +243,54 @@ createHeading("PLEASE OPEN THIS IN A PC/COMPUTER", "h2"); // Creates an "h2" hea
   
 </style>
 <script>
+    // Set a timeout to redirect the user after 5 seconds
+// This will show an alert and then redirect to a new URL
 
-if (window.innerWidth < 500) {
-      document.body.innerHTML = ""; // Clear page
 
-      const heading = document.createElement("h2");
-      heading.textContent = "PLEASE OPEN THIS IN A PC/COMPUTER";
-      document.body.appendChild(heading);
-    }
+
+// Reload the page after 50 seconds if the user is on a mobile device
+       if (window.localStorage) {
+  const reloadCount = parseInt(localStorage.getItem('reloadCount')) || 0;
+
+  if (reloadCount < 1) {
+    // First load: set count and reload immediately
+    localStorage.setItem('reloadCount', '1');
+    location.reload();
+  } else if (reloadCount === 1) {
+    // Second load: wait 50 seconds, then reload
+    setTimeout(() => {
+      localStorage.setItem('reloadCount', '2'); // Mark as fully reloaded
+      location.reload();
+    }, 1000);
+  } else {
+    // After second reload: clean up
+    localStorage.removeItem('reloadCount');
+  }
+}
+
+
+      
+
+      if (window.innerWidth < 768){
+    document.getElementById("message").style.display = "block";
+    document.body.innerHTML = ""
+    function createHeading(text, headingLevel = "h1") {
+  const heading = document.createElement(headingLevel); // Create heading element
+  heading.textContent = text; // Set text content
+  document.body.appendChild(heading); // Add to the document body
+}
+createHeading("PLEASE OPEN THIS IN A PC/COMPUTER", "h2"); // Creates an "h2" heading with text "Welcome to our website" 
+
+}
+
+
+// if (window.innerWidth < 500) {
+//       document.body.innerHTML = ""; 
+
+//       const heading = document.createElement("h2");
+//       heading.textContent = "PLEASE OPEN THIS IN A PC/COMPUTER";
+//       document.body.appendChild(heading);
+//     }
 //  (function () {
 //     const gridItems = document.querySelectorAll('p, .nav-item, .grid-item1,.grid-item2,.grid-item3,.grid-item4,.grid-item5,.grid-item6,.grid-item7,.grid-item8,.team-member');
 //     const cursor = document.querySelector('.cursor');
