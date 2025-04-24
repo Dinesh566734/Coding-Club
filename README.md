@@ -1,7 +1,7 @@
-Coding Club
+**Coding Club**
 Welcome to the Coding Club repository! This project serves as a centralized platform for managing and showcasing various coding-related events, contests, and student projects. It's designed to facilitate collaboration, learning, and innovation within our coding community.
 
-🌟 Features
+**🌟 Features**
 Event Management: Organize and display information about coding events and tech fests.
 
 Contest Hosting: Set up and manage coding contests with ease.
@@ -10,7 +10,7 @@ Student Projects: Showcase projects developed by students, promoting peer learni
 
 Web Builders: Tools and templates to assist in web development initiatives.
 
-📁 Project Structure
+**📁 Project Structure**
 The repository is organized as follows:
 ├── .vscode/             # Visual Studio Code configuration files
 ├── Techfest/            # Resources and pages related to tech festivals
@@ -24,7 +24,7 @@ The repository is organized as follows:
 ├── project1.html        # Detailed view of Project 1
 └── test.html            # Test page for development purposes
 
-🚀 Getting Started
+**🚀 Getting Started**
 To set up the project locally:
 
 Clone the repository:
@@ -35,14 +35,14 @@ cd Coding-Club
 
 Open index.html in your preferred web browser to explore the homepage.
 
-🛠️ Technologies Used
+**🛠️ Technologies Used**
 HTML5: Markup language for structuring the web pages.
 
 CSS3: Styling and layout of the web pages.
 
 JavaScript: Interactive elements and dynamic content.
 
-📌 Contribution Guidelines
+**📌 Contribution Guidelines**
 We welcome contributions from the community! To contribute:
 
 Fork the repository.
@@ -61,10 +61,10 @@ Open a Pull Request and describe your changes.
 
 Please ensure your code adheres to the project's coding standards and is well-documented.
 
-📄 License
+**📄 License**
 This project is open-source and available under the MIT License.
 
-📬 Contact
+**📬 Contact**
 For any queries or suggestions, feel free to reach out:
 
 Email: marananidinesh@example.com
