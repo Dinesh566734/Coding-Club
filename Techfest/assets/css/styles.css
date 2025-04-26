@@ -47,7 +47,6 @@
 }
 
 
-
 .evaluation_metrics {
   padding: 20px;
   max-width: 1200px;
@@ -61,7 +60,7 @@
 }
 
 .evaluation_metrics h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   padding-top: 20px;
   padding-bottom: 10px;
