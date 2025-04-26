@@ -6,6 +6,47 @@
   margin: 0;
 }
 
+.main-heading {
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 20px 0 10px 0;
+  text-transform: uppercase;
+}
+.sub-heading {
+  font-size: 1.5rem;
+  text-align: left;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.download-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.2s ease;
+}
+.download-link img {
+  width: 50px;
+  margin-right: 15px;
+}
+.download-link:hover {
+  transform: scale(1.05);
+}
+@media (max-width: 600px) {
+  .main-heading {
+      font-size: 2rem;
+  }
+  .sub-heading {
+      font-size: 1.2rem;
+  }
+  .download-link img {
+      width: 40px;
+  }
+}
+
+
 .evaluation_metrics {
   padding: 20px;
   max-width: 1200px;
@@ -72,6 +113,7 @@
   margin-right: auto;
   width: 80%;
   display: flex;
+  
   justify-content: center;
   gap: 20px; /* adds spacing between images */
   flex-wrap: wrap; /* optional: helps wrap on small screens */
@@ -84,7 +126,9 @@
 }
 .tech:hover {
   transform: translateY(-10px);
+  filter: none;
 }
+
 
 
 .logo{
