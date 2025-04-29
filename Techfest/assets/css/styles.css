@@ -14,7 +14,7 @@
   text-transform: uppercase;
 }
 .sub-heading {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: left;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -775,62 +775,82 @@ details p {
   text-align: center;
   justify-content: center;
   
-}
-.team-section {
-  
+}.team-section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 40px auto;
+  padding: 0 10px;
 }
 
 .team-member {
   text-align: center;
-  background-color: transparent;
-  border-radius: 8px;
+  /* background-color: #1e1e1e; */
+  border-radius: 10px;
   padding: 20px;
   margin: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease-in-out;
-  width: calc(33.33% - 20px); /* Adjust based on container width and margin */
-  max-width: 300px; /* Limit width to ensure three columns on larger screens */
-}
-.teamp{
-  transition: 0.2s;
-}
-.team-member:hover .teamp{
-  color: white;
-  font-size: 1.2em;
-
-}
-.team-member a {
-  margin: 10px; /* Adjust the amount of gap as needed */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+  width: calc(33.33% - 20px);
+  max-width: 300px;
 }
 
 .team-member:hover {
-  transform: translateY(-5px);
+  transform: translateY(-8px);
+  /* background-color: #2a2a2a; */
 }
 
-.team-member img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 15px;
+.team-member h1 {
+  font-size: 100px;
+  color: #ffffff;
+  margin: 0;
 }
 
 .team-member h3 {
   font-size: 1.5em;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
-.team-member p {
-  color: #666;
+.teamp {
+  color: #aaa;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.team-member:hover .teamp {
+  color: #fff;
   font-size: 1.2em;
 }
 
+.team-member a {
+  margin: 10px;
+  text-decoration: none;
+}
 
+.team-member a i {
+  font-size: 1.5em;
+  color: #bbb;
+  transition: color 0.3s ease;
+}
+
+.team-member a:hover i {
+  color: #0e76a8; /* LinkedIn blue */
+}
+
+@media (max-width: 768px) {
+  .team-member {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-member {
+    width: 100%;
+  }
+}
 /* courses */
 .courses {
   display: flex;
